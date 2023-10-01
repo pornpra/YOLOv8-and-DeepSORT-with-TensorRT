@@ -46,9 +46,7 @@ git clone https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT.git
 cd YOLOv8-and-DeepSORT-with-TensorRT
 ```
     
-* Convert YOLOv8 from Pytorch model to TensorRT model 
-
-    * Export pre-trained YOLOv8 from Pytorch model to TensorRT model (fp16 precision) using 3-4 lines of code <br />
+* Convert YOLOv8 from Pytorch model to TensorRT model (fp16 precision)
 
 ```
 python3 yolov8s_torch_to_engine.py
@@ -75,8 +73,7 @@ python3 reid_torch_to_onnx.py
 /usr/src/tensorrt/bin/trtexec --onnx=reid.onnx --saveEngine=reid_fp16.trt --minShapes=input:1x3x128x64 --optShapes=input:5x3x128x64 --maxShapes=input:30x3x128x64 --fp16 --inputIOFormats=fp16:chw --outputIOFormats=fp16:chw
 ```
 
-* Time to Inference  
-  * Run main.py to inference (test with test_video.mp4)
+* Time to Inference (test with test_video.mp4)
 
 ```
 python3 main.py
