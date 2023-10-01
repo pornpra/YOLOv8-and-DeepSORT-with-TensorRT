@@ -40,7 +40,6 @@ See more details in yolov8s_torch_to_engine.py
 2.1 cd to your ONNX model directory <br />
 2.2 run this command: <br />
 
-/usr/src/tensorrt/bin/trtexec --onnx=reid.onnx --saveEngine=reid_fp16.trt --minShapes=input:1x3x128x64 --optShapes=input:5x3x128x64 --maxShapes=input:30x3x128x64 --fp16 --inputIOFormats=fp16:chw --outputIOFormats=fp16:chw
 
 ```
 function test() {
