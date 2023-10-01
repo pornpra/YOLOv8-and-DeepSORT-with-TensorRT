@@ -31,6 +31,14 @@ This project converts object detection (YOLOv8) and object tracking (DeepSORT) i
 11. Plotly: xxxx  <br />
 12. Easydict: xxxx  <br />
 
+### Step to Run Code ###
+
+* Item 1
+* Item 2
+* Item 3
+  * Sub Item A
+  * Sub Item B
+    
 ### Convert YOLOv8 from Pytorch model to TensorRT model ###
 
 Export pre-trained YOLOv8 from Pytorch model to TensorRT model (fp16 precision) using 3-4 lines of code <br />
