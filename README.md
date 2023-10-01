@@ -28,4 +28,14 @@ This project integrates object detection (YOLOv8) and object tracking (DeepSORT)
 
 ### Convert YOLOv8 from Pytorch model to TensorRT model ###
 
+Export pre-trained YOLOv8 from Pytorch model to TensorRT model (fp16 precision) using 3-4 lines of code
+
+from ultralytics import YOLO
+model_weight = './yolov8s.pt'
+model = YOLO(model_weight)
+model.export(format='engine', device=device, half=True)
+
+See more details in ### yolov8_export.py ###
+
+
 ### Convert DeepSORT's ReID from Pytorch model to TensorRT model ###
