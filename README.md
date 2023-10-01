@@ -49,7 +49,10 @@ cd YOLOv8-and-DeepSORT-with-TensorRT
 * Convert YOLOv8 from Pytorch model to TensorRT model 
 
     * Export pre-trained YOLOv8 from Pytorch model to TensorRT model (fp16 precision) using 3-4 lines of code <br />
-    * See more details in yolov8s_torch_to_engine.py
+
+```
+python3 yolov8s_torch_to_engine.py
+```
 
 * Convert DeepSORT's ReID from Pytorch model to TensorRT model
 1. Download DeepSORT files (including reid.pt, reid.onnx and reid_fp16.trt) from Google Drive. After downloading, unzip it and move the deep_sort_tensorrt folder under YOLOv8-and-DeepSORT-with-TensorRT folder. <br />
@@ -58,7 +61,12 @@ cd YOLOv8-and-DeepSORT-with-TensorRT
 https://drive.google.com/drive/folders/10hXfbdwDXn7AF4NG-gHWDoYpTNrfZ2XO?usp=sharing
 ```
 
-2. Convert DeepSORT's ReID from Pytorch model to ONNX model (dynamic batch but static width and height) using reid_torch_to_onnx.py <br />
+2. Convert DeepSORT's ReID from Pytorch model to ONNX model (dynamic batch but static width and height) <br />
+
+```
+python3 reid_torch_to_onnx.py
+```
+
 3. Convert DeepSORT's ReID from ONNX model to TensorRT model (fp16 precision and dynamic batch) using trtexec command <br />
 3.1 cd to your ONNX model directory <br />
 3.2 Run this command: <br />
