@@ -2,7 +2,7 @@
 ## This project uses YOLOv8 under AGPL 3.0 License (for open source and academic projects) ##
 
 ### Project Overview ###
-This project integrates object detection (YOLOv8) and object tracking (DeepSORT) with TensorRT and deploys converted models into NVIDIA Jetson Orin Nano. 
+This project converts object detection (YOLOv8) with TensorRT and deploys converted models into NVIDIA Jetson Orin Nano. 
 
 ### Prerequisites ###
 
@@ -31,7 +31,6 @@ This project integrates object detection (YOLOv8) and object tracking (DeepSORT)
 Export pre-trained YOLOv8 from Pytorch model to TensorRT model (fp16 precision) using 3-4 lines of code <br />
 See more details in yolov8_export.py 
 
-### Convert DeepSORT's ReID from Pytorch model to TensorRT model ###
 
 ### Time to Inference !!! ###
 Run main.py to inference
