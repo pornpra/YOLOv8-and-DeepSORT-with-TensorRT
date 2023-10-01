@@ -21,7 +21,7 @@ This project converts object detection (YOLOv8) and object tracking (DeepSORT) w
 2. cuDNN: 8.6.0.166 (pre-installed by Jetpack)  <br />
 3. TensorRT: 8.5.2.2 (pre-installed by Jetpack) <br />
 4. Torch: torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64  <br />
-5. torchvision: 0.15.2 <br />
+5. Torchvision: 0.15.2 <br />
 6. Ultralytics: 8.0.184 <br />
 7. ONNX: 1.14.1 <br />
 8. ONNXruntime: 1.16.0 <br />
@@ -36,7 +36,7 @@ Export pre-trained YOLOv8 from Pytorch model to TensorRT model (fp16 precision) 
 See more details in yolov8s_torch_to_engine.py
 
 ### Convert DeepSORT's ReID from Pytorch model to TensorRT model ###
-1. Download DeepSORT files (reid.pt, reid.onnx and reid.trt) from Google Drive  <br />
+1. Download DeepSORT files (reid.pt, reid.onnx and reid_fp16.trt) from Google Drive  <br />
 
 ```
 https://drive.google.com/drive/folders/10hXfbdwDXn7AF4NG-gHWDoYpTNrfZ2XO?usp=sharing
