@@ -82,5 +82,6 @@ python3 main.py
 ```
 
 References
-1. (https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking)
-2. (https://wiki.seeedstudio.com/YOLOv8-TRT-Jetson/#uninstall-torch-and-torchvision)
+1. (https://docs.ultralytics.com/)
+2. (https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking)
+3. (https://wiki.seeedstudio.com/YOLOv8-TRT-Jetson/)
