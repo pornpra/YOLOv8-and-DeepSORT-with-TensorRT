@@ -61,11 +61,11 @@ https://drive.google.com/drive/folders/10hXfbdwDXn7AF4NG-gHWDoYpTNrfZ2XO?usp=sha
 2. Convert DeepSORT's ReID from Pytorch model to ONNX model (dynamic batch but static width and height) using reid_torch_to_onnx.py <br />
 3. Convert DeepSORT's ReID from ONNX model to TensorRT model (fp16 precision and dynamic batch) using trtexec command <br />
 3.1 cd to your ONNX model directory <br />
-3.2 run this command: <br />
+3.2 Run this command: <br />
 
 ```
 /usr/src/tensorrt/bin/trtexec --onnx=reid.onnx --saveEngine=reid_fp16.trt --minShapes=input:1x3x128x64 --optShapes=input:5x3x128x64 --maxShapes=input:30x3x128x64 --fp16 --inputIOFormats=fp16:chw --outputIOFormats=fp16:chw
 ```
 
-### Time to Inference !!! ###
-Run main.py to inference
+* Time to Inference !!! 
+  * Run main.py to inference (test with test_video.mp4)
