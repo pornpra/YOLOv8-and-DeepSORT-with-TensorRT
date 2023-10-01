@@ -15,6 +15,6 @@ This project integrates object detection (YOLOv8) and object tracking (DeepSORT)
 2. 
 
 
-### Convert YOLOv8 from Pytorch model (.pt) to TensorRT model (.engine) ###
+### Convert YOLOv8 from Pytorch model to TensorRT model ###
 
-### Convert DeepSORT's ReID from Pytorch model (.pt) to TensorRT model (.engine) ###
+### Convert DeepSORT's ReID from Pytorch model to TensorRT model ###
