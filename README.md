@@ -13,15 +13,15 @@ This project integrates object detection (YOLOv8) and object tracking (DeepSORT)
 3. System: Linux  <br />
 4. Distribution: Ubuntu 20.04 focal  <br />
 5. Release: 5.10.104-tegra  <br />
-6. Python: 3.8.10  <br />
+6. Jetpack: 5.1.1  <br />
+7. Python: 3.8.10 (pre-installed by Jetpack)  <br />
 
 #### Libraries ####
-1. Jetpack: 5.1.1  <br />
-2. CUDA: 11.4.315 (pre-installed by Jetpack) <br />
-3. cuDNN: 8.6.0.166 (pre-installed by Jetpack)  <br />
-4. TensorRT: 8.5.2.2 (pre-installed by Jetpack) <br />
-5. Torch: torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64  <br />
-6. Torchvision: 0.15.2 <br />
+1. CUDA: 11.4.315 (pre-installed by Jetpack) <br />
+2. cuDNN: 8.6.0.166 (pre-installed by Jetpack)  <br />
+3. TensorRT: 8.5.2.2 (pre-installed by Jetpack) <br />
+4. Torch: torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64  <br />
+5. Torchvision: 0.15.2 <br />
 
 
 ### Convert YOLOv8 from Pytorch model to TensorRT model ###
