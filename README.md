@@ -2,7 +2,7 @@
 ## This project uses YOLOv8 under AGPL 3.0 License (for open source and academic projects) ##
 
 ### Project Overview ###
-This project converts object detection (YOLOv8) and object tracking (DeepSORT) into TensorRT format and inferences converted models by NVIDIA Jetson Orin Nano. The objective of this project are to convert YOLOv8 and DeepSORT with TensorRT only and test with specific edge device (no object counting and other applications in main.py). The exact outputs from main.py are bouding box from object detection and object id from object tracking. After that it's depend on your applications based on these extracted infomration. Good luck :)
+This project converts object detection (YOLOv8) and object tracking (DeepSORT) into TensorRT format and inferences converted models by NVIDIA Jetson Orin Nano. The objective of this project are to convert YOLOv8 and DeepSORT with TensorRT and test with edge device only (no object counting and other applications in main.py). The exact outputs from main.py are bouding box from object detection and object id from object tracking. After that it's depend on your applications based on these extracted infomration. Good luck :)
 
 
 ### Prerequisites ###
