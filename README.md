@@ -52,7 +52,7 @@ cd YOLOv8-and-DeepSORT-with-TensorRT
     * See more details in yolov8s_torch_to_engine.py
 
 * Convert DeepSORT's ReID from Pytorch model to TensorRT model
-1. Download DeepSORT files (including reid.pt, reid.onnx and reid_fp16.trt) from Google Drive. After downloading, move the deep_sort_tensorrt folder under YOLOv8-and-DeepSORT-with-TensorRT reposistory. <br />
+1. Download DeepSORT files (including reid.pt, reid.onnx and reid_fp16.trt) from Google Drive. After downloading, unzip it and move the deep_sort_tensorrt folder under YOLOv8-and-DeepSORT-with-TensorRT folder. <br />
 
 ```
 https://drive.google.com/drive/folders/10hXfbdwDXn7AF4NG-gHWDoYpTNrfZ2XO?usp=sharing
