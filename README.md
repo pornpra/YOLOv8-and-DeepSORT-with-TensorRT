@@ -36,11 +36,17 @@ See more details in yolov8s_torch_to_engine.py
 
 ### Convert DeepSORT's ReID from Pytorch model to TensorRT model ###
 1. Convert DeepSORT's ReID from Pytorch model to ONNX model (Dynamic Batch but Static Width and Height) using reid_torch_to_onnx.py <br />
-2. Convert DeepSORT's ReID from ONNX model to TensorRT model (fp16 precision) using trtexec command
-2.1 cd to your ONNX model directory
+2. Convert DeepSORT's ReID from ONNX model to TensorRT model (fp16 precision) using trtexec command <br />
+2.1 cd to your ONNX model directory <br />
 2.2 run this command: <br />
 
 /usr/src/tensorrt/bin/trtexec --onnx=reid.onnx --saveEngine=reid_fp16.trt --minShapes=input:1x3x128x64 --optShapes=input:5x3x128x64 --maxShapes=input:30x3x128x64 --fp16 --inputIOFormats=fp16:chw --outputIOFormats=fp16:chw
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 ### Time to Inference !!! ###
 Run main.py to inference
