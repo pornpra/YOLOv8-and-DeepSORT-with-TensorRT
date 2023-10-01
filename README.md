@@ -17,9 +17,9 @@ This project integrates object detection (YOLOv8) and object tracking (DeepSORT)
 
 #### Libraries ####
 1. Jetpack: 5.1.1  <br />
-2. CUDA: 11.4.315 (preinstalled by Jetpack) <br />
-3. cuDNN: 8.6.0.166 (preinstalled by Jetpack)  <br />
-4. TensorRT: 8.5.2.2 (preinstalled by Jetpack) <br />
+2. CUDA: 11.4.315 (pre-installed by Jetpack) <br />
+3. cuDNN: 8.6.0.166 (pre-installed by Jetpack)  <br />
+4. TensorRT: 8.5.2.2 (pre-installed by Jetpack) <br />
 5. Torch: torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64  <br />
 6. Torchvision: 0.15.2 <br />
 
