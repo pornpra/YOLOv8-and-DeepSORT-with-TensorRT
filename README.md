@@ -25,9 +25,8 @@ This project converts object detection (YOLOv8) and object tracking (DeepSORT) w
 6. Ultralytics: 8.0.184 <br />
 7. Onnx: 1.14.1 <br />
 8. Onnxruntime: 1.16.0 <br />
-9. PyCUDA: xxx  <br />
-10. Numpy: 1.22.2
-
+9. PyCUDA: 2022.2.2  <br />
+10. Numpy: 1.22.2  <br />
 
 ### Convert YOLOv8 from Pytorch model to TensorRT model ###
 
