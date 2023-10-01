@@ -32,3 +32,6 @@ Export pre-trained YOLOv8 from Pytorch model to TensorRT model (fp16 precision) 
 See more details in yolov8_export.py 
 
 ### Convert DeepSORT's ReID from Pytorch model to TensorRT model ###
+
+### Time to Inference !!! ###
+Run main.py to inference
