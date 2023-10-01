@@ -46,7 +46,7 @@ git clone https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT.git
 cd YOLOv8-and-DeepSORT-with-TensorRT
 ```
 
-If you want to use our converted model to inference please skip to inference step, otherwise you need to follow convert YOLOv8 from Pytorch model to TensorRT model and convert DeepSORT's ReID from Pytorch model to TensorRT model steps
+If you want to use our converted model to inference please skip to inference step, otherwise you need to convert YOLOv8 and DeepSORT's ReID from Pytorch to TensorRT before running inference by following:
 
 * Convert YOLOv8 from Pytorch model to TensorRT model (fp16 precision)
 
@@ -57,7 +57,7 @@ python3 yolov8s_torch_to_engine.py
 Don't forget to check and rename converted model to yolov8s_fp16.engine :exclamation:
 
 * Convert DeepSORT's ReID from Pytorch model to TensorRT model
-1. Download DeepSORT files (including reid.pt, reid.onnx and reid_fp16.trt) from Google Drive. After downloading, unzip it and move the deep_sort_tensorrt folder under YOLOv8-and-DeepSORT-with-TensorRT folder. <br />
+1. Download DeepSORT files (including reid.pt, reid.onnx and reid_fp16.trt) from Google Drive. After downloading, unzip it and move the deep_sort_tensorrt folder under YOLOv8-and-DeepSORT-with-TensorRT folder <br />
 
 ```
 https://drive.google.com/drive/folders/10hXfbdwDXn7AF4NG-gHWDoYpTNrfZ2XO?usp=sharing
