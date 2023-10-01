@@ -31,11 +31,9 @@ This project converts object detection (YOLOv8) and object tracking (DeepSORT) i
 11. Plotly: xxxx  <br />
 12. Easydict: xxxx  <br />
 
-:exclamation: Remark: when you install ultralytics this will install Torch and Torchvision. However, these 2 packages installed via pip are not compatible to run on Jetson platform wwhich is based on ARM aarch64 architecture. Therefore we need to manually install pre-built PyTorch pip wheel and compile/ install Torchvision from source :exclamation:
-
 ### Steps to Run Code :computer: ###
 
-* Please make sure your platform and libraries follow prerequisites !!! :white_check_mark:
+* Please make sure your platform and libraries follow prerequisites :white_check_mark:
   
 * Clone the repository
 ```
