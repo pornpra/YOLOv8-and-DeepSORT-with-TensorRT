@@ -4,7 +4,7 @@
 ### Project Overview ###
 This project integrates object detection (YOLOv8) and object tracking (DeepSORT) with TensorRT and deploys converted models into NVIDIA Jetson Orin Nano. 
 
-### Prerequisite ###
+### Prerequisites ###
 
 #### Platform ####
 1. Device: NVIDIA Jetson Orin Nano Development Kit (8GB) <br />
