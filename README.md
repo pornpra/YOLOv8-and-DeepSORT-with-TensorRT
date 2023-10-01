@@ -23,16 +23,22 @@ This project converts object detection (YOLOv8) with TensorRT and deploys conver
 4. Torch: torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64  <br />
 5. Torchvision: 0.15.2 <br />
 6. Ultralytics: 8.0.184 <br />
-7. Onnxruntime: 1.16.0 <br />
-8. PyCUDA: xxx  <br />
+7. Onnx: 1.14.1 <br />
+8. Onnxruntime: 1.16.0 <br />
+9. PyCUDA: xxx  <br />
+10. Numpy: 1.22.2
 
 
 ### Convert YOLOv8 from Pytorch model to TensorRT model ###
 
 Export pre-trained YOLOv8 from Pytorch model to TensorRT model (fp16 precision) using 3-4 lines of code <br />
-See more details in yolov8_export.py 
+See more details in yolov8s_torch_to_engine.py
 
 ### Convert DeepSORT's ReID from Pytorch model to TensorRT model ###
+1. Convert DeepSORT's ReID from Pytorch model to ONNX model (Dynamic Batch but Static Width and Height) using reid_torch_to_onnx.py <br />
+2. Convert DeepSORT's ReID from ONNX model to TensorRT model (fp16 precision) using trtexec command
+2.1 cd to your ONNX model directory
+2.2 run this command >> /usr/src/tensorrt/bin/trtexec --onnx=reid.onnx --saveEngine=reid_fp16.trt --minShapes=input:1x3x128x64 --optShapes=input:5x3x128x64 --maxShapes=input:30x3x128x64 --fp16 --inputIOFormats=fp16:chw --outputIOFormats=fp16:chw
 
 ### Time to Inference !!! ###
 Run main.py to inference
