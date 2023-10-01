@@ -22,6 +22,7 @@ This project integrates object detection (YOLOv8) and object tracking (DeepSORT)
 3. TensorRT: 8.5.2.2 (pre-installed by Jetpack) <br />
 4. Torch: torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64  <br />
 5. Torchvision: 0.15.2 <br />
+6. Ultralytics: 8.0.184 <br />
 
 
 ### Convert YOLOv8 from Pytorch model to TensorRT model ###
