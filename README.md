@@ -33,7 +33,7 @@ This project converts object detection (YOLOv8) and object tracking (DeepSORT) i
 
 ### Steps to Run Code ###
 
-* Please make sure your platform and libraries follow prerequisites !!!
+* Please make sure your platform and libraries follow prerequisites !!! :white_check_mark:
   
 * Clone the repository
 ```
