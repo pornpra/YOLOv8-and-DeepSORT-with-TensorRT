@@ -42,9 +42,7 @@ See more details in yolov8s_torch_to_engine.py
 
 
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+/usr/src/tensorrt/bin/trtexec --onnx=reid.onnx --saveEngine=reid_fp16.trt --minShapes=input:1x3x128x64 --optShapes=input:5x3x128x64 --maxShapes=input:30x3x128x64 --fp16 --inputIOFormats=fp16:chw --outputIOFormats=fp16:chw
 ```
 
 ### Time to Inference !!! ###
