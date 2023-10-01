@@ -77,7 +77,7 @@ python3 reid_torch_to_onnx.py
 /usr/src/tensorrt/bin/trtexec --onnx=reid.onnx --saveEngine=reid_fp16.trt --minShapes=input:1x3x128x64 --optShapes=input:5x3x128x64 --maxShapes=input:30x3x128x64 --fp16 --inputIOFormats=fp16:chw --outputIOFormats=fp16:chw
 ```
 
-* Time to Inference (test with test_video.mp4)
+* Inference (test with test_video.mp4)
 
 ```
 python3 main.py
