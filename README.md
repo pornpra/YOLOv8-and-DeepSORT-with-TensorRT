@@ -46,7 +46,7 @@ git clone https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT.git
 cd YOLOv8-and-DeepSORT-with-TensorRT
 ```
 
-If you want to use our converted model to inference please skip to inference step, otherwise you need to convert YOLOv8 and DeepSORT's ReID from Pytorch to TensorRT before running inference by following:
+If you want to use our converted model to inference please skip to inference step, otherwise you need to convert YOLOv8 model and DeepSORT's ReID model from Pytorch to TensorRT before running inference by following:
 
 * Convert YOLOv8 from Pytorch model to TensorRT model (fp16 precision)
 
