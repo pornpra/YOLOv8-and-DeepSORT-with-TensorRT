@@ -9,7 +9,7 @@ This project converts object detection (YOLOv8) and object tracking (DeepSORT) i
 
 #### Platform ####
 1. Device: NVIDIA Jetson Orin Nano Development Kit (8GB) <br />
-(https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit)
+[Jetson Orin Nano Developer Kit Getting Started Guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit)
 2. Machine: aarch64  <br />
 3. System: Linux  <br />
 4. Distribution: Ubuntu 20.04 focal  <br />
@@ -82,6 +82,6 @@ python3 main.py
 ```
 
 References
-1. [a relative link](https://docs.ultralytics.com/) 
-2. (https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking)
-3. (https://wiki.seeedstudio.com/YOLOv8-TRT-Jetson/)
+1. [Ultralytics](https://docs.ultralytics.com/) 
+2. [YOLOv8-DeepSORT-Object-Tracking](https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking)
+3. [Deploy YOLOv8 on NVIDIA Jetson using TensorRT](https://wiki.seeedstudio.com/YOLOv8-TRT-Jetson/)
