@@ -6,13 +6,22 @@ This project integrates object detection (YOLOv8) and object tracking (DeepSORT)
 
 ### Prerequisite ###
 
-#### Hardware ####
-1. NVIDIA Jetson Orin Nano Development Kit (8GB) <br />
+#### Platform ####
+1. Device: NVIDIA Jetson Orin Nano Development Kit (8GB) <br />
 (https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit)
+2. Machine: aarch64  <br />
+3. System: Linux  <br />
+4. Distribution: Ubuntu 20.04 focal  <br />
+5. Release: 5.10.104-tegra  <br />
+6. Python: 3.8.10  <br />
 
-#### Software ####
-1. Jetpack 5.1.1  <br />
-2. 
+#### Libraries ####
+1. Jetpack: 5.1.1  <br />
+2. CUDA: 11.4.315 <br />
+3. cuDNN: 8.6.0.166  <br />
+4. TensorRT: 8.5.2.2 <br />
+5. Torch: torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64  <br />
+6. Torchvision: 0.15.2 <br />
 
 
 ### Convert YOLOv8 from Pytorch model to TensorRT model ###
