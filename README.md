@@ -24,6 +24,7 @@ This project converts object detection (YOLOv8) with TensorRT and deploys conver
 5. Torchvision: 0.15.2 <br />
 6. Ultralytics: 8.0.184 <br />
 7. Onnxruntime: 1.16.0 <br />
+8. PyCUDA: xxxx  <br />
 
 
 ### Convert YOLOv8 from Pytorch model to TensorRT model ###
@@ -31,6 +32,7 @@ This project converts object detection (YOLOv8) with TensorRT and deploys conver
 Export pre-trained YOLOv8 from Pytorch model to TensorRT model (fp16 precision) using 3-4 lines of code <br />
 See more details in yolov8_export.py 
 
+### Convert DeepSORT's ReID from Pytorch model to TensorRT model ###
 
 ### Time to Inference !!! ###
 Run main.py to inference
