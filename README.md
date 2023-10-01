@@ -4,7 +4,7 @@
 Requirements
 
 Hardware
-1. NVIDIA Jetson Orin Nano Development Kit (8GB)
+1. NVIDIA Jetson Orin Nano Development Kit (8GB) <br />
 [More details] (https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit)
 
 Software
