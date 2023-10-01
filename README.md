@@ -33,6 +33,8 @@ This project converts object detection (YOLOv8) and object tracking (DeepSORT) i
 
 ### Steps to Run Code ###
 
+* Please make sure your platform and libraries follow prerequisites !!!
+  
 * Clone the repository
 ```
 git clone https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT.git
