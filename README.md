@@ -20,16 +20,11 @@ This project converts object detection (YOLOv8) and object tracking (DeepSORT) i
 #### Libraries ####
 1. CUDA: 11.4.315 (pre-installed by Jetpack) <br />
 2. cuDNN: 8.6.0.166 (pre-installed by Jetpack)  <br />
-3. TensorRT: 8.5.2.2 (pre-installed by Jetpack) <br />
-4. Torch: torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64  <br />
-5. Torchvision: 0.15.2 <br />
-6. Ultralytics: 8.0.184 <br />
-7. ONNX: 1.14.1 <br />
-8. ONNXruntime: 1.16.0 <br />
-9. PyCUDA: 2022.2.2  <br />
-10. Numpy: 1.22.2  <br />
-11. Plotly: xxxx  <br />
-12. Easydict: xxxx  <br />
+3. tensorrt: 8.5.2.2 (pre-installed by Jetpack) <br />
+4. torch: torch-2.0.0+nv23.05 <br />
+5. torchvision: 0.15.2a0+fa99a53 <br />
+6. ultralytics: 8.0.190 <br />
+
 
 ### Steps to Run Code :computer: ###
 
