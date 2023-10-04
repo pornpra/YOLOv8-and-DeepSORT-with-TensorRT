@@ -10,12 +10,8 @@ This project converts object detection (YOLOv8) and object tracking (DeepSORT) i
 #### Platform ####
 1. Device: NVIDIA Jetson Orin Nano Development Kit (8GB) <br />
 [Jetson Orin Nano Developer Kit Getting Started Guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit)
-2. Machine: aarch64  <br />
-3. System: Linux  <br />
-4. Distribution: Ubuntu 20.04 focal  <br />
-5. Release: 5.10.104-tegra  <br />
-6. Jetpack: 5.1.1  <br />
-7. Python: 3.8.10 (pre-installed by Jetpack) <br />
+2. Jetpack: 5.1.1  <br />
+3. Python: 3.8.10 (pre-installed by Jetpack) <br />
 
 #### Libraries ####
 1. CUDA: 11.4.315 (pre-installed by Jetpack) <br />
