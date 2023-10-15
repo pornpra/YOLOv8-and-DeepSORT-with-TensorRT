@@ -72,7 +72,7 @@ python3 reid_torch_to_onnx.py
 python3 main.py
 ```
 
-![Screenshot](https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT/blob/main/nvidia_inference.jpg)
+![image description](https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT/blob/main/nvidia_inference.jpg)
 
 ![me](https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT/blob/main/output.gif)
 
