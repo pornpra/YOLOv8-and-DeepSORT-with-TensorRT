@@ -72,11 +72,11 @@ python3 reid_torch_to_onnx.py
 python3 main.py
 ```
 
-### Inference log at NVIDIA Jetson Orin Nano terminal ###
+### Inference log at NVIDIA Jetson Orin Nano terminal :books: ###
 
 ![image description](https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT/blob/main/nvidia_inference.jpg)
 
-### Demo ###
+### Demo :collision: ###
 
 ![me](https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT/blob/main/output.gif)
 
