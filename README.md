@@ -8,7 +8,7 @@ The objective of this project is to convert object detection model (YOLOv8) and 
 ### Prerequisites :star: ###
 
 #### Platform ####
-1. Device: NVIDIA Jetson Orin Nano Development Kit (8GB) <br />
+1. Device: NVIDIA Jetson Orin Nano Developer Kit (8GB) <br />
 [Jetson Orin Nano Developer Kit Getting Started Guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit)
 2. Jetpack: 5.1.1  <br />
 3. Python: 3.8.10 (pre-installed by Jetpack) <br />
