@@ -72,7 +72,11 @@ python3 reid_torch_to_onnx.py
 python3 main.py
 ```
 
+### Results after inference by NVIDIA Jetson Orin Nano ###
+
 ![image description](https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT/blob/main/nvidia_inference.jpg)
+
+### Demo ###
 
 ![me](https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT/blob/main/output.gif)
 
