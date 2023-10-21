@@ -76,7 +76,7 @@ python3 main.py
 
 ![image description](https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT/blob/main/nvidia_inference.jpg)
 
-### Demo :collision: ###
+### Results :collision: ###
 
 ![me](https://github.com/pornpra/YOLOv8-and-DeepSORT-with-TensorRT/blob/main/output.gif)
 
