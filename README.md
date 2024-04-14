@@ -14,9 +14,9 @@ The objective of this project is to convert object detection model (YOLOv8) and 
 3. Python: 3.8.10 (pre-installed by Jetpack) <br />
 
 #### Libraries ####
-1. CUDA: 11.4.315 (pre-installed by Jetpack) <br />
-2. cuDNN: 8.6.0.166 (pre-installed by Jetpack)  <br />
-3. TensorRT: 8.5.2.2 (pre-installed by Jetpack) <br />
+1. CUDA: 11.4.315 (installed by Jetpack) <br />
+2. cuDNN: 8.6.0.166 (installed by Jetpack)  <br />
+3. TensorRT: 8.5.2.2 (installed by Jetpack) <br />
 4. Torch: torch-2.0.0+nv23.05 <br />
 5. Torchvision: 0.15.2a0+fa99a53 <br />
 6. Ultralytics: 8.0.190 <br />
